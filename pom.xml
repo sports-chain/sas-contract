@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>wallet</groupId>
+		<artifactId>wallet-parent</artifactId>
+		<version>0.0.1</version>
+	</parent>
+	<artifactId>wallet-wallet</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.web3j</groupId>
+			<artifactId>core</artifactId>
+			<version>5.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bitcoinj</groupId>
+			<artifactId>bitcoinj-core</artifactId>
+			<version>0.14.7</version>
+		</dependency>
+		<dependency>
+			<groupId>wf.bitcoin</groupId>
+			<artifactId>bitcoin-rpc-client</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.github.qyvlik</groupId>
+			<artifactId>io.eblock.eos-eos4j</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20200518</version>
+		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.google.code.gson</groupId> -->
+<!-- 			<artifactId>gson</artifactId> -->
+<!-- 		</dependency> -->
+		<dependency>
+			<groupId>io.gsonfire</groupId>
+			<artifactId>gson-fire</artifactId>
+			<version>1.8.4</version>
+		</dependency>
+	</dependencies>
+</project>
